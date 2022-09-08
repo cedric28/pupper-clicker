@@ -1,0 +1,20 @@
+{
+  "name": "pupper-script",
+  "version": "1.0.0",
+  "description": "pupper clickable button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./index.js"
+  },
+  "author": "cedric legarda",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "puppeteer": "^17.1.2",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-adblocker": "^2.13.5",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "selenium-webdriver": "^4.4.0"
+  }
+}
